@@ -1,9 +1,0 @@
-digraph Tree {
-node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
-edge [fontname="helvetica"] ;
-0 [label="health_not_recom <= 0.5\nentropy = 1.722\nsamples = 7776\nvalue = [2601, 2561, 1, 2403, 210]\nclass = not_recom", fillcolor="#fffefd"] ;
-1 [label="entropy = 1.206\nsamples = 5175\nvalue = [0.0, 2561.0, 1.0, 2403.0, 210.0]\nclass = priority", fillcolor="#f7fef4"] ;
-0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="entropy = 0.0\nsamples = 2601\nvalue = [2601, 0, 0, 0, 0]\nclass = not_recom", fillcolor="#e58139"] ;
-0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-}
